@@ -1,0 +1,144 @@
+.container {
+
+height: 100px;
+
+position: relative;
+
+background: linear-gradient(60deg , var(--bg-main) 60% , var (--bg-main-2) 60% ) ;
+
+}
+
+.container >  h1 {
+
+    font-size: 165px;
+
+    color : rgba(27 , 30 , 38 , 0.17);
+
+    top : 10%;
+
+    left : 20%;
+
+    position : absolute;
+
+}
+
+.nav{
+
+height: 70%;
+
+width: 100%;
+
+background: #efefef;
+
+padding: 30px;
+
+display: flex;
+
+
+}
+
+ion-icon {
+
+color: #efefef;
+
+font-size: 24px;
+
+justify-content: space-between;
+
+align-items: center;
+}
+
+.left {
+
+display:flex;
+
+align-items: center ;
+
+}
+
+.left > .logo {
+
+width: 50px;
+
+height: auto;
+
+}
+
+.left > .logo > img {
+
+width: 100%;
+
+height: 100px;
+
+}
+
+.left > .list {
+
+display: flex;
+
+align-items:center;
+
+list-style:none;
+
+margin-left: 70px;;
+
+}
+
+.main-content , .main-content-back{
+
+    display:flex ;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+
+
+.left-section, .right-section , .rightback-section , .leftback-section , .leftbackback-section , .rightbackback-section  {
+   
+width: 45%;
+
+background-color:lightgreen;
+
+padding: 20px;
+
+border:1px solid #ccc;
+
+border-radius: 10%;
+
+font-style: italic;
+
+color: darkgreen;
+
+text-align: center;
+}
+
+.buttonCreditos {
+
+    width: 5%;
+
+    background-color:lightgreen;
+    
+    padding: 20px;
+    
+    border:1px solid #ccc;
+    
+    border-radius: 10%;
+    
+    font-style: italic;
+    
+    color: darkgreen;
+    
+    text-align: center;
+
+ 
+}
+
+
+.list {
+
+
+text-shadow: 1px 1px 1px rgb(80, 83, 99);
+
+
+}
